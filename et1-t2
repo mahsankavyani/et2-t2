@@ -1,0 +1,42 @@
+#	Grundlagen der Elektrotechnik: Gleich- und Wechselstromnetzwerke (Teil2)
+
+![Bild](https://cdn.pixabay.com/photo/2014/09/20/13/52/board-453758_960_720.jpg "Das [Bild](https://pixabay.com/de/photos/brett-elektronik-rechner-453758/) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)")
+
+# Inhaltsverzeichnis
+*** Einfacher Stromkreis ***
+
+# Ideale Spannungsquelle/ Ideale Stromquelle
+
+!?[Video](https://youtu.be/IZDh_EUuhRs "Das [Video](https://www.youtube.com/watch?v=IZDh_EUuhRs) von *mi eb* ist lizenziert unter [CC BY](https://creativecommons.org/licenses/by/4.0/)")
+
+## Ideale Spannungsquelle
+- Eine Quelle, die unabhängig vom Verbraucher stets dieselbe Spannung abgibt.
+- Die Ausgangsspannung einer idealen Spannungsquelle verringert sich bei Belastung nicht und bleibt konstant auf *U0*
+- Der Kurzschlussstrom IK wird unendlich groß -> Die abgegebene Leistung *P=U0⋅I0* steigt ins unendlich.
+- In der Praxis ist es unmöglich der unendliche Energievorrat der Quelle zu erreichen -> In technischen Berechnungen werden zumeist Ersatzschaltungen für reale Spannungsquellen eingesetzt.
+- lineare Spannungsquelle =  idealen Spannungsquelle +  einem ohmschen Innenwiderstand   (Reihenschaltung)
+- Bei der idealen Spannungsquelle ist U=U0, da der Innenwiderstand Ri=0
+
+## Ideale Stromquelle
+- Eine Quelle, die stets eine konstante Stromstärke liefert.
+- Sie ist der Grenzfall einer linearen Stromquelle mit einem unendlich großem Innenwiderstand Ri
+- Im Grenzfall des Kurzschlusses mit *U_ki = 0* fließt der gesamte Strom der Quelle über die Ausgangsklemmen.
+- Lastwiderstand ~ die Klemmenspannung (bis zum Grenzfall des Leerlaufes) => nimmt die Klemmenspannung einen Wert *U0* an.
+- Bei *U0* der gesamte Quellenstrom durch den Innenwiderstand fließt.
+          ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0f304bde18a78edd9e65196b8d4a05d1a75810cc)
+- Ri ~ U0
+![Bild](https://upload.wikimedia.org/wikipedia/commons/c/cd/Quelle_I-Ersatz.svg " Das Bild ´´Ersatzschaltbild einer linearen Stromquelle (mit Verbraucher)´´ von *Saure* ist lizenziert unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)")
+
+## Wirkungsgrad
+
+- Der Wirkungsgrad gibt normalerweise an, der Anteil der zugeführten Energie, der bei einer Umwandlung in die gewünschte Energieform umgewandelt wird. ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/75c86e29b73e29427879daa155f46f762a5739c2)
+-Der Wirkungsgrad kann auch entsprechend über die Leistung ermittelt werden. (Sofern keine Verfälschung durch gespeicherte Energie): ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/ea4ec690bfaf540071e1f286904471384c7c5c47 "**P**ab= Nutzleistung , **P**zu = zugeführten Leistung")
+
+###  Wirkungsgrad einer Spannungsquelle[^*]
+- Verhältnis der dem Verbraucher zugeführten Leistung ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a82e05f7c7210509ae5abb0fdc7ee8e5c0e2bf1)zur von der Spannungsquelle erzeugten Leistung ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/e6982d4d73c8e158f65606a196e6e62c2d7d3efa)
+- Bei realen Spannungsquelle: ein Teil der erzeugten Spannung an **R**i verloren geht.
+- Bei gleicher Stromstärke gilt: ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a6510777adc392e67d36c2b5c7d54eb0a354c9c8)
+- ![Bild](https://upload.wikimedia.org/wikipedia/commons/b/bd/Maximum_Power_Transfer_Graph_de.png " Das [Bild](https://de.wikipedia.org/wiki/Spannungsquelle#/media/Datei:Maximum_Power_Transfer_Graph_de.png) ´´Normierte Ausgangsleistung und Wirkungsgrad einer realen Spannungsquelle in Abhängigkeit vom Widerstandsverhältnis **R**a /**R**i aus Verbraucherwiderstand **R**a (im Text **R**v) zu Innenwiderstand **R**i´´  von *Saure* ist lizenziert unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)")
+[^*]: Für mehr Infos klicken Sie bitte [hier](https://de.wikipedia.org/wiki/Spannungsquelle)
+
+# Widerstand
