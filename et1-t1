@@ -1,0 +1,370 @@
+#	Grundlagen der Elektrotechnik: Gleich- und Wechselstromnetzwerke (Teil1)
+
+![Bild](https://get.pxhere.com/photo/computer-technology-raspberry-microchip-usb-pc-it-ports-electrician-chip-circuit-board-motherboard-information-technology-capacitors-raspberry-pi-electronic-device-computer-hardware-personal-computer-hardware-1046832.jpg   "Das [Bild](https://pxhere.com/en/photo/1046832) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)")
+
+
+# Inhaltsverzeichnis
+  ***Grundbegriffe:***
+
+
+>-> Physikalische Größen
+
+>-> Einheiten
+
+>-> Elektrische Ladung
+
+>-> Coulombsches Gesetz
+
+>-> Elektrischer Strom und Ladungsdurchsatz
+
+>-> Elektrische Energie und Leistung
+
+>-> Elektrische Spannung
+
+>-> Verbraucher und Erzeugerpfeilsystem
+
+# Physikalische Größen
+## **1.1.Grundgrößen**
+
+
+*Bedeutung*: mathematische, physikalische Größe, die allen andern Größen in einem bestimmten Bereich zugrunde gelegt wird.
+| Grundgrößen             |  Einheit         |
+| ----------------------- |------------------|
+| **Länge**               | 1 m (Meter)      |
+| **Masse**               | 1 kg (Kilogramm) |
+| **Zeit**                | 1 s (Sekunde)    |
+| Elektrische Stromstärke | 1 A (Ampere)     |
+| TemperaturTemperatur    | 1 K (Kelvin)     |
+| Stoffmenge              | 1 mol (Mol)      |
+|  Lichtstärke            | 1 cd (Candela)   |
+
+
+
+## **1.2. Andere Physikalische Größen**
+
+‏Die physikalischen Gesetze sind basiert auf Naturgesetze, die mithilfe der mathematischen Gleichungen, in denen physikalische Größen verknüpft sind, geschrieben werden können. (vgl. Bosse, 1996)
+
+So werden z. B. Weg-Zeit-Gesetz:
+**Geschwindigkeit (m/s) =gleichförmige Bewegung(m)/ Zeit (s)**
+
+# Einheiten
+
+Eine Einheit einer physikalischen Größe ist eine Vergleichsgröße mit der Maßzahl 1 und der Maßeinheit der Größe. Für jede physikalische Größe ist mindestens eine Einheit festgelegt. Das kann eine Grundeinheit oder eine abgeleitete Einheit sein.
+Normalerweise ist es effizient, eine bestimmte physikalische Größe in Vielfachen oder in Teilen der betreffenden Einheit anzugeben, damit die Zahlenwerte nicht zu groß oder zu klein werden.
+
+*Vielfache von Einheiten*
+|     Vorsatz    | Zeichen | Faktor |
+| ---------------|-------- |--------|
+| Exa            | E       |10^18   |
+| Peta           | P       |10^15   |
+| Tera           | T       |10^12   |
+| Giga           |  G      |10^9    |
+| Mega           | M       |10^6    |
+| Kilo           | k       |10^3    |
+| Hekto          | h       |10^2    |
+| Deka           | da      |10      |
+
+
+*Teile von Einheiten*
+|     Vorsatz    | Zeichen | Faktor |
+| ---------------|-------- |--------|
+|   Dezi         | d       |10^-1   |
+|   Zenti        | c       |10^-2   |
+|   Milli        | m       |10^-3   |
+|   Mikro        | μ       |10^-6   |
+|   Nano         | n       |10^-9   |
+|   Pico         | p       |10^-12  |
+|   Femto        | f       |10^-15  |
+|   Atto         | a       |10^-18  |
+
+
+
+# Elektrische Ladung:
+
+<iframe width=390 height=250 src="https://www.openlearnware.de/embed/#/599" frameborder="0" allowfullscreen>
+</iframe>
+Das [Video](https://openlearnware.tu-darmstadt.de/resource/599) von Prof. Dr. Joachim Enders ist lizenziert unter [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+- Die elektrische Ladung  ***Q*** oder ***q***(abgeleitet vom lateinischen Wort ‚quantum‘) ist eine physikalische Größe, die mit der Materie verbunden ist.
+- Im Internationalen Einheitensystem wird die Ladung in der abgeleiteten Einheit Coulomb (= Amperesekunde) angegeben.
+-  Elementarteilchen können positive, negative oder keine elektrische Ladung tragen.
+- Die Ladung freier Teilchen ist stets ein ganzzahliges Vielfaches der Elementarladung e, e=1,602,176,634**.**10^-19 [C] beträgt.
+-  „Solange sich positive und negative Ladungen lokal kompensieren und ungeordnet bewegen treten weder elektrische noch magnetische Erscheinung auf.“ (Haase. Garbe. Gerth,2009, S.2)
+
+
+
+## Coulombsches Gesetz[^*]
+**Coulombsche Gesetz:** beschreibt die Wirkung der Anziehungskräfte und Abstoßungskräfte Zwischen elektrisch geladenen Körpern:
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/5c1b093c3d2bc6ba8207ee8b86d63fb592369761)
+
+Laut der Feldtheorie nach Faraday [^**](englischer Physiker, 1791-1867)  in der Umgebung eine Ladung **Q** gibt es eine Feldstärke E:
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/03875f68eba617e990b04a6d37f0d827e64650d4)
+
+[^*]: Für mehr Infos ist "Elektrotechnik für Ingenieure 1" von Weigerber 2018, S.4 empfehlenswert.
+
+
+
+
+
+# Elektrischer Strom und Ladungsdurchsatz
+ <iframe width=270 height=250  src="https://www.openlearnware.de/embed/#/471?start=30" frameborder="0" allowfullscreen></iframe>
+ Das [Video](https://openlearnware.tu-darmstadt.de/resource/25-elektrischer-strom-471?start=823) von Prof. Dr. Joachim Enders ist lizenziert unter [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+
+- im allgemeinen bedeutet es der Transport von elektrischen Ladungsträgern, z.B. Elektronen in Leitern oder Halbleitern oder von Ionen in Elektrolyten.
+- Darüber hinaus zählt man zum elektrischen Strom den Verschiebungsstrom. Dieser entsteht nicht durch Bewegung von Ladungen, sondern durch Änderungen des Flusses eines elektrischen Feldes.
+- Stromstärke: Mit dem Wort „Strom“ ist oft die Stromstärke ***I*** gemeint. Sie ist definiert als der Größenwert der Menge ***Q***, der sich pro Zeitintervall ***t*** durch eine (Ober-)Fläche bewegt:
+
+
+      ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a69de48a707e0051ad3c42cb9f0464402f1ff618)
+
+
+- Im allgemeinen werden zwei Stromarten unterschieden:
+
+   *Gleichstrom* ist ein in Stärke und Richtung zeitlich gleichbleibender Strom.
+
+
+   *Wechselstrom* ist ein zeitlich periodisch sich ändernder Strom.
+
+
+
+# Elektrische Energie und Leistung
+- ***Energieerhaltungssatz:***
+
+-> Energie kann zwischen verschiedenen Energieformen umgewandelt werden, beispielsweise von Bewegungsenergie in Wärmeenergie.
+
+-> Energie kann aus einem System heraus oder in ein System hinein transportiert werden, es ist nicht möglich, Energie zu erzeugen oder zu vernichten.
+
+->Um Ladungen entgegen der Coulombschen Anziehungskräfte zu trennen, braucht man eine von außen zugeführte Energie, die von elektrischer Spannung erzeugt. Diese Energie wird in den Ladungen in potentieller Energie gespeichert (vgl. Weißgerber, 2018)
+
+
+
+
+# Leistungs
+## ***Bei Gleichstrom:***
+-> Die elektrische Leistung ***P*** ist das Produkt der elektrischen Spannung ***U*** und der elektrischen Stromstärke ***I***.
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/def2af68ac9c552e2f3f9bd94e3c0d3b2846a2c1)
+-> Falls sich der Verbraucher als ohmscher Widerstand ***R*** verhält, kann man die Leistung durch Anwendung des ohmschen Gesetzes: ***U=R.I*** ausdrücken:
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/c53743d9e5302d46ece2df8a2804abb8eb943376)
+## ***Bei Wechselstrom***
+-> Die Größen Spannung und Stromstärke von der Zeit ***t*** abhängige Größen ***u*** und ***i*** . Hier sind mehrere Leistungsbegriffe zu unterscheiden:
+
+-- **Augenblickswert (p) **:der Leistung oder auch Momentanleistung:
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/178e1bd00510277e1a422fa805aa4f9d5e7a7736)
+
+
+
+**Scheinleistung (S)** :  auch als Anschlusswert oder Anschlussleistung bezeichnet. Sie wird in Voltampere (**VA**) angegeben.
+
+
+**Blindleistung (Q)**: eine nicht nutzbare Energie pro Zeit. Sie wird in Var (**var**) angegeben.
+
+**Wirkleistung (P)** :  die tatsächlich umgesetzte Energie pro Zeitspanne. Sie wird in Watt (**W**) angegeben.
+
+
+![Bild](https://upload.wikimedia.org/wikipedia/commons/c/c1/Leistung-BlindKom.svg  "Das Bild ["Augenblickswerte der Leistung bei Blindleistungskompensation"](https://de.wikipedia.org/wiki/Elektrische_Leistung#/media/Datei:Leistung-BlindKom.svg) von Saure ist lizenziert unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)")
+
+
+
+# Elektrische Spannung
+
+
+![Bild](https://upload.wikimedia.org/wikipedia/commons/d/da/Spannung_Kugelfeld.svg  "Das Bild ["Spannung bei Bewegung im Feld eines Kugelkondensators"](https://de.wikipedia.org/wiki/Elektrische_Spannung#/media/Datei:Spannung_Kugelfeld.svg) von Saure ist lizenziert unter [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/de/deed.en)")
+
+->  Die elektrische Spannung **U** ( auch vereinfacht nur als Spannung bezeichnet) ist eine grundlegende physikalische Größe der Elektrotechnik und Elektrodynamik.
+
+-Sie wird im internationalen Einheitensystem in der Einheit Volt (Einheitenzeichen: V) angegeben.
+
+-> Die elektrische Spannung **U** *(AB)* zwischen zwei Punkten A und B in einem elektrischen Feld mit der Feldstärke E ist definiert als räumliches Linienintegral längs eines festgelegten Weges von Punkt A zu Punkt B:
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/015808005e285c81659f701b7458ed04e80dead4)
+In diesem Feld wirkt eine Kraft **F=qE** auf eine Ladung ***q***  , sodass bei der Bewegung eine Arbeit **W** *(AB)* verrichtet wird. Die Arbeit berechnet man durch: ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/02ac3ecbfdf6a831d12efce413141e9f0be9f81b)
+Damit ergibt sich:
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/165754523c007c44b2da039a6bd28a8f4258b4e0)
+
+
+
+
+# Verbraucher und Erzeugerpfeilsystem
+
+->  „Quelle und Verbraucher bezeichnet man wegen ihrer zwei Anschlüsse als Zweipol.“ (Haase.Garbe.Gerth, 2009, S.10)
+
+
+## **Verbraucher-Zählpfeilsystem (motorbezogene Vereinbarung):**
+
+->Die Bezugspfeile an einem Zweipol bilden ein Verbraucher-Zählpfeilsystem(VZS), wenn sich beide Pfeilspitzen oder beide Pfeilenden an demselben Pol befinden und der Bezugspfeil der elektrischen Leistung in den Zweipol hinein weist
+-> elektrische Energie- und Leistungsaufnahme
+
+
+
+![Bild](https://upload.wikimedia.org/wikipedia/commons/1/16/VSystem.jpg)
+
+
+Das [Bild](https://commons.wikimedia.org/wiki/File:VSystem.jpg#/media/File:VSystem.jpg) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+-> Die Verbraucherbepfeilung ist die bevorzugte Wahl für passive Bauelemente wie ohmscher Widerstand, idealer Kondensator und ideale Spule.
+
+## **Erzeuger-Zählpfeilsystem (generatorbezogene Vereinbarung):**
+
+-> Die Bezugspfeile an einem Zweipol bilden ein Erzeuger-Zählpfeilsystem(EZS), wenn sich eine Pfeilspitze und ein Pfeilende an demselben Anschluss befinden.
+-> Der Bezugspfeil der elektrischen Leistung aus dem Zweipol heraus zeigt. Der Zweipol wird damit, unabhängig von seinem Wirkprinzip, formal als „Erzeuger“ behandelt.
+-> Elektrische Energie- und Leistungsabgabe.
+-> Die Spannung längs des Zweipols, ori entiert entgegen der Bezugsrichtung von I und Qp.
+
+
+![Bild](https://upload.wikimedia.org/wikipedia/commons/c/c5/ESystem.jpg)
+
+Das [Bild](https://commons.wikimedia.org/wiki/File:ESystem.jpg#/media/File:ESystem.jpg) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+
+# Lernzielkontrolle
+## Test 1:
+Was ist die Einheit von Lichtstärke?
+
+
+- [[X]] Candela
+- [[ ]] Coulomb
+- [[ ]] Ampere
+- [[ ]] Volt
+- [[?]] Seite 4 des Kurses
+
+## Test 2:
+... ist keine Grundgröße.
+
+
+- [[ ]] Ampere
+- [[X]] Leistung
+- [[ ]] Stromstärke
+- [[ ]] Stoffmenge
+- [[X]] Geschwindigkeit
+- [[?]] Diese Aufgabe hat 2 richtige Antworten
+- [[?]] Seite 4 und 5 des Kurses
+
+## Test 3:
+wie Groß ist 3.52 kg?
+
+
+- [[X]] 3.52 * 10^-15 E
+- [[ ]] 3.52 * 10^-15 P
+- [[X]] 3.52 * 10^12 p
+- [[ ]] 3.52 * 10^12 da
+- [[?]] Diese Aufgabe hat 2 richtige Antworten
+- [[?]] Seite 6 des Kurses
+
+
+## Test 4:
+Bitte wählen Sie alle zutreffenden Antworten.
+
+
+- [[ ]] Zwei positive Ladungen ziehen sich gegenseitig an.
+- [[ ]] Zwei negative Ladungen ziehen sich gegenseitig an.
+- [[ ]] Die Ladung muss nicht immer ein ganzzahliges Vielfaches der Elementarladung sein
+- [[ ]] Es gibt keine magnetische Erscheinung, wenn sich die Ladungen ungeordnet bewegen.
+- [[X]] keine davon ist richtig
+- [[?]] Zwei positive/ negative Ladungen stoßen sich gegenseitig ab.
+- [[?]] Seite 7 des Kurses
+
+## Test 5:
+
+Ein Körper mit 3 Elektronen und 5 Protonen ist insgesamt....
+
+[[ elektrisch neutral| ( positiv geladen ) | negativ geladen ]]
+
+## Test 6:
+Die Anzahl an Ladungen sei 5,64·10^17 . Wie groß ist die Gesamtladung?
+
+
+- [[ ]] 0.08 C
+- [[X]] 0.09 C
+- [[ ]] 0.9 C
+- [[ ]] 0.8 C
+- [[?]] Q= N.e
+
+
+## Test 7:
+Wie lautet die Einheit der Ladung?
+
+- [[ ]] Ampere
+- [[X]] Coulomb
+- [[x]] Amperesekunde
+- [[ ]] Volt
+- [[?]] Diese Aufgabe hat 2 richtige Antworten
+- [[?]] Seite 7 des Kurses
+
+## Test 8:
+
+Bitte wählen Sie alle zutreffenden Antworten.
+
+- [[ ]] Elementarteilchen können nur positive Ladung tragen.
+- [[X]] Die Ladung freier Teilchen ist stets ein ganzzahliges Vielfaches der Elementarladung e.
+- [[ ]] Es gibt keine Kräfte zwischen Ladungen eines Teilchens.
+- [[X]] Mit wachsender Abstand nimmt die Kraft ab.
+- [[X]] Die Kraft hängt von der Ladungsgröße ab.
+- [[X]] Die Kraftwirkung ist unabhängig von der Richtung.
+- [[?]] Diese Aufgabe hat 4 richtige Antworten
+- [[?]] Seite 7 und 8 des Kurses
+
+## Test 9:
+Bitte wählen Sie die zutreffende Antwort:
+
+- [( )] Die Entstehung des Stroms ist nur durch Bewegung der Ladungen möglich.
+- [(X)] Strom kann auch durch Änderungen des Flusses eines elektrischen Feldes entstehen.
+- [( )] Strom kann auch durch Änderungen des Flusses eines magnetischen Feldes entstehen
+- [[?]] Seite 9 des Kurses
+
+
+## Test 10:
+Die Stromstärke....
+
+- [[ ]] zeigt man oft mit ***A***.
+- [[X]] ist definiert als der Größenwert der Menge, der sich pro Zeitintervall durch eine (Ober-)Fläche bewegt.
+- [[ ]] ist definiert als der Größenwert der Menge, der sich pro Zeitintervall über eine (Ober-)Fläche bewegt.
+- [[X]] zeigt man oft mit ***I***
+- [[?]] Diese Aufgabe hat 2 richtige Antworten
+- [[?]] Seite 9 des Kurses
+
+## Test 11:
+Wie viel Voltampere ist 1 Joule?
+
+[[1]]
+
+## Test 12:
+Laut Energieerhaltungssatz...
+
+- [( )] Energie kann nur von Bewegungsenergie in Wärmeenergie umgewandelt werden.
+- [(X)] Es ist unter verschiedene Maßnamen möglich Energie zu erzeugen
+- [( )] Energie kann transportiert werden.
+- [[?]] Seite 10 des Kurses
+
+## Test 13:
+Bitte wählen Sie die zutreffenden Antworten:*Leistung bei Gleichstrom...*
+
+- [[ ]] ist die tatsächliche elektrische Leistung ***P*** das Produkt der elektrischen Spannung ***U*** und der elektrischen Stromstärke ***R***
+- [[X]] ist die tatsächliche elektrische Leistung ***P*** das Produkt der elektrischen Spannung ***U*** und der elektrischen Stromstärke ***I***
+- [[X]] Verhält sich der Verbraucher als ohmscher Widerstand ***R*** lässt sich die Leistung durch Anwendung des ohmschen Gesetzes: ***U=R.I*** ausdrücken
+- [[ ]]Verhält sich der Erzeuger als ohmscher Widerstand ***R*** lässt sich die Leistung durch Anwendung des ohmschen Gesetzes: ***U=R.I*** ausdrücken
+- [[?]] Seite 12 des Kurses.
+
+## Test 14:
+Bitte wählen Sie die zutreffenden Antworten:*Leistung bei Wechselstrom...*
+
+- [[X]] sind die Größen Spannung und Stromstärke von der Zeit ***t*** abhängige Größen ***u*** und ***i***
+- [[ ]] sind die Größen Spannung und Stromstärke von der Widerstand ***R*** abhängige Größen ***u*** und ***i***
+- [[X]] **Wirkleistung (P)** :  die tatsächlich umgesetzte Energie pro Zeitspanne. Sie wird in Watt (**W**) angegeben.
+- [[X]] **Wirkleistung (P)** :  die tatsächlich umgesetzte Energie pro Zeitspanne. Sie wird in Voltampere (**VA**) angegeben.
+- [[ ]] Wirkleistung ist auch als Anschlusswert oder Anschlussleistung bezeichnet.
+- [[X]] Blindleistung wird in Var (**var**) angegeben.
+- [[ ]] Scheinleistung wird in Var (**var**) angegeben.
+- [[?]] Seite 13 des Kurses
+- [[?]] Diese Aufgabe hat 4 richtige Antworten
+
+
+# Literaturverzeichnis
+- Haase.Garbe.Gerth, Helmut.Heyno.Hendrik(2009): Grundlagen der Elektrotechnik, Grundbegriffe, SchöneworthVerlag, Hannover
+
+- Bosse, Georg(1969): Grundlagen der Elektrotechnik I, Allgemeine Vorbemerkungen, Verlag Anton Hain, Maisenheim/geladenen
+
+
+- Weißgerber, Wilfried(2018): Elektrotechnik für Ingenieure1, Das elektrische Potential und die elektrische Spannung, Springer Vieweg, Wiesbaden
