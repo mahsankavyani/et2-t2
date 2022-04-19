@@ -1,4 +1,4 @@
-#	Grundlagen der Elektrotechnik: Gleich- und Wechselstromnetzwerke (Teil1)
+#	Grundlagen der Elektrotechnik: Gleich- und Wechselstromnetzwerke (*Grundbegriffe*)
 
 ![Bild](https://get.pxhere.com/photo/computer-technology-raspberry-microchip-usb-pc-it-ports-electrician-chip-circuit-board-motherboard-information-technology-capacitors-raspberry-pi-electronic-device-computer-hardware-personal-computer-hardware-1046832.jpg   "Das [Bild](https://pxhere.com/en/photo/1046832) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)")
 
@@ -199,10 +199,8 @@ Damit ergibt sich:
 
 
 
-![Bild](https://upload.wikimedia.org/wikipedia/commons/1/16/VSystem.jpg)
+![Bild](https://upload.wikimedia.org/wikipedia/commons/f/fb/Verbraucher-Zaehlpfeilsystem.svg "Das [Bild](https://de.wikipedia.org/wiki/Z%C3%A4hlpfeil#/media/Datei:Verbraucher-Zaehlpfeilsystem.svg) „Bezugspfeile gemäß Verbraucher-Zählpfeilsystem. Jeder Kasten steht für einen passiven oder aktiven Zweipol.“ von *Modalanalytiker*ist lizenziert unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)")
 
-
-Das [Bild](https://commons.wikimedia.org/wiki/File:VSystem.jpg#/media/File:VSystem.jpg) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
 -> Die Verbraucherbepfeilung ist die bevorzugte Wahl für passive Bauelemente wie ohmscher Widerstand, idealer Kondensator und ideale Spule.
 
@@ -214,9 +212,8 @@ Das [Bild](https://commons.wikimedia.org/wiki/File:VSystem.jpg#/media/File:VSyst
 -> Die Spannung längs des Zweipols, ori entiert entgegen der Bezugsrichtung von I und Qp.
 
 
-![Bild](https://upload.wikimedia.org/wikipedia/commons/c/c5/ESystem.jpg)
+![Bild](https://upload.wikimedia.org/wikipedia/commons/4/41/Erzeuger-Zaehlpfeilsystem.svg "Das [Bild](https://de.wikipedia.org/wiki/Z%C3%A4hlpfeil#/media/Datei:Erzeuger-Zaehlpfeilsystem.svg) „Bezugspfeile gemäß Erzeuger-Zählpfeilsystem. Jeder Kasten steht für einen aktiven oder passiven Zweipol.“ von *Modalanalytiker*ist lizenziert unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)")
 
-Das [Bild](https://commons.wikimedia.org/wiki/File:ESystem.jpg#/media/File:ESystem.jpg) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
 
 # Lernzielkontrolle
