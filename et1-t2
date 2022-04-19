@@ -1,15 +1,23 @@
-#	Grundlagen der Elektrotechnik: Gleich- und Wechselstromnetzwerke (Teil2)
+#	Grundlagen der Elektrotechnik: Gleich- und Wechselstromnetzwerke (Einfacher Stromkreis)
 
 ![Bild](https://cdn.pixabay.com/photo/2014/09/20/13/52/board-453758_960_720.jpg "Das [Bild](https://pixabay.com/de/photos/brett-elektronik-rechner-453758/) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)")
 
 # Inhaltsverzeichnis
-*** Einfacher Stromkreis ***
+*** Einfacher Stromkreis: ***
+
+>-> Ideale Spannungsquelle/ Ideale Stromquelle
+>-> Wirkungsgrad
+>-> Widerstand
+>-> Ohmsches Gesetz
+>-> Einfacher Stromkreis (Beispiel)
+>-> Lernzielkontrolle
 
 # Ideale Spannungsquelle/ Ideale Stromquelle
 
 !?[Video](https://youtu.be/IZDh_EUuhRs "Das [Video](https://www.youtube.com/watch?v=IZDh_EUuhRs) von *mi eb* ist lizenziert unter [CC BY](https://creativecommons.org/licenses/by/4.0/)")
 
 ## Ideale Spannungsquelle
+
 - Eine Quelle, die unabhängig vom Verbraucher stets dieselbe Spannung abgibt.
 - Die Ausgangsspannung einer idealen Spannungsquelle verringert sich bei Belastung nicht und bleibt konstant auf *U0*
 - Der Kurzschlussstrom IK wird unendlich groß -> Die abgegebene Leistung *P=U0⋅I0* steigt ins unendlich.
@@ -17,7 +25,11 @@
 - lineare Spannungsquelle =  idealen Spannungsquelle +  einem ohmschen Innenwiderstand   (Reihenschaltung)
 - Bei der idealen Spannungsquelle ist U=U0, da der Innenwiderstand Ri=0
 
+**Ideale Spannungsquelle**:![Bild](https://upload.wikimedia.org/wikipedia/commons/d/d2/Ideale_Spannungsquelle.PNG " Das [Bild](https://de.wikipedia.org/wiki/Liste_der_Schaltzeichen_(Elektrik/Elektronik) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.de) ")
+
 ## Ideale Stromquelle
+ **Ideale Stromquelle**:![Bild](https://upload.wikimedia.org/wikipedia/commons/5/57/Ideale_Stromquelle.PNG " Das [Bild](https://de.wikipedia.org/wiki/Liste_der_Schaltzeichen_(Elektrik/Elektronik) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)")
+
 - Eine Quelle, die stets eine konstante Stromstärke liefert.
 - Sie ist der Grenzfall einer linearen Stromquelle mit einem unendlich großem Innenwiderstand Ri
 - Im Grenzfall des Kurzschlusses mit *U_ki = 0* fließt der gesamte Strom der Quelle über die Ausgangsklemmen.
@@ -27,12 +39,13 @@
 - Ri ~ U0
 ![Bild](https://upload.wikimedia.org/wikipedia/commons/c/cd/Quelle_I-Ersatz.svg " Das Bild ´´Ersatzschaltbild einer linearen Stromquelle (mit Verbraucher)´´ von *Saure* ist lizenziert unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)")
 
-## Wirkungsgrad
+
+# Wirkungsgrad
 
 - Der Wirkungsgrad gibt normalerweise an, der Anteil der zugeführten Energie, der bei einer Umwandlung in die gewünschte Energieform umgewandelt wird. ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/75c86e29b73e29427879daa155f46f762a5739c2)
 -Der Wirkungsgrad kann auch entsprechend über die Leistung ermittelt werden. (Sofern keine Verfälschung durch gespeicherte Energie): ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/ea4ec690bfaf540071e1f286904471384c7c5c47 "**P**ab= Nutzleistung , **P**zu = zugeführten Leistung")
 
-###  Wirkungsgrad einer Spannungsquelle[^*]
+##  Wirkungsgrad einer Spannungsquelle[^*]
 - Verhältnis der dem Verbraucher zugeführten Leistung ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a82e05f7c7210509ae5abb0fdc7ee8e5c0e2bf1)zur von der Spannungsquelle erzeugten Leistung ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/e6982d4d73c8e158f65606a196e6e62c2d7d3efa)
 - Bei realen Spannungsquelle: ein Teil der erzeugten Spannung an **R**i verloren geht.
 - Bei gleicher Stromstärke gilt: ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a6510777adc392e67d36c2b5c7d54eb0a354c9c8)
@@ -40,3 +53,205 @@
 [^*]: Für mehr Infos klicken Sie bitte [hier](https://de.wikipedia.org/wiki/Spannungsquelle)
 
 # Widerstand
+
+!?[Video](https://youtu.be/A2mZkKkHyZo "Das [Video](https://www.youtube.com/watch?v=A2mZkKkHyZo) von *eHaJo* ist lizenziert unter [CC BY](https://creativecommons.org/licenses/by/4.0/)")
+
+- Elektrische Widerstand verhält sich als Verbraucher(passiv)
+- Die Größe des Widerstandes bestimmt die Größe der elektrische Spannung, die nötig ist, um eine bestimmte elektrische Stromstärke fließen zu lassen.
+- Der elektrische Widerstand erzeugt einen *Widerstand* gegen Strom.
+- Die Einheit des Widerstandes ist Ohm (Ω)
+
+   ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/21647e9159dc8a5403d6119cd379ba15a19a66d4)
+
+- Er bestimmt von den Materialeigenschaften:
+   ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a4c8dc1470becb738459e766a766ecb8a2024795)
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/1f7d439671d1289b6a816e6af7a304be40608d64)= spezifischen Widerstand
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/829091f745070b9eb97a80244129025440a1cfac)= Länge des Leiters
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/7daff47fa58cdfd29dc333def748ff5fa4c923e3)=  konstanter Querschnittsfläche
+
+### temperaturabhängigkeit des Widerstandes:
+
+!?[Video](https://youtu.be/Xw7QXJ9sV6s " Das [Video](https://www.youtube.com/watch?v=Xw7QXJ9sV6s) 'GDE1: Temperaturabhaengige Widerstände' von *Gerald Oberschmidt* ist lizenziert unter [CC BY](https://creativecommons.org/licenses/by/3.0/legalcode) ")
+
+-spezifischen Widerstand ~ Temperatur
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0c3a402538a198ae1fc009c0b555baee01cca382)
+
+-Der temperaturabhängige Anteil am spezifischen Widerstand ist bei allen Leitern in einem jeweils begrenzten Temperaturbereich näherungsweise linear
+
+
+da : ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a4c8dc1470becb738459e766a766ecb8a2024795)
+ergibt sich: ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/5697fb2a10e315135a218a881f98ca4c368edbcc)
+##  Elektrischer Leitwert
+Der Kehrwert des ohmschen Widerstands, nennt man elektrische Leitwert und wird mit **G** bezeichnet.
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/442277c802d8bf447ad8ff2a7a6f75eebc453970)
+
+Seine SI-Einheit ist Siemens (S)
+
+## Differentieller Widerstand
+![Bild](https://upload.wikimedia.org/wikipedia/commons/3/30/Kennlinie_nichtlinear.png "Das [Bild](https://de.wikipedia.org/wiki/Differentieller_Widerstand#/media/Datei:Kennlinie_nichtlinear.png) 'Am Arbeitspunkt A entspricht bei den hier gewählten Koordinatenachsen – der Widerstand der Steigung der Ursprungsgeraden durch diesen Punkt, – der differentielle Widerstand der Steigung der Tangente an diesem Punkt.'  von *Saure* ist lizenziert unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)")
+- Der differentieller Widerstand ist die Ableitung der Spannungskennlinie nach dem Stom
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/8c36decd75a5ac857f9ad12d3445dc55902180ef)
+- Im Ohm'sche (linearen) Fall gilt **R=r**D (Haase.Garbe.Gerth, 2009, S.15)
+## Reihenschaltung
+!?[Video](https://youtu.be/llSTGnunOTQ "Das [Video](https://www.youtube.com/watch?v=llSTGnunOTQ) 'Reihenschaltung' von *Wolfgang Bengfort* ist lizenziert unter [CC BY](https://creativecommons.org/licenses/by/3.0/legalcode)")
+
+-  *n* ohmsche Widerstände hintereinander geschaltet, so der gesamte Widerstand ist gleich:
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/b167cb376e74c9858d23e0f106776ab61a30f1bd)
+
+### Spannungsteilerregel
+Spannungsteiler -> eine Reihenschaltung aus passiven Bauteile, durch die eine elektrische Spannung aufgeteilt wird.
+
+
+Spannungsteilerregel -> beschreibt die Berechnung der Teilspannungen einer Reihenschaltung von Widerständen bei gegebenem Gesamtspannung.
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/34813a4352d78928b3260048ef4f90a68e63ebf5)
+## Parallelschaltung
+!?[Video](https://youtu.be/XUumG9uZi7g " Das [Video](https://www.youtube.com/watch?v=XUumG9uZi7g) 'Parallelschaltung' von *Wolfgang Bengfort* ist lizenziert unter [CC BY](https://creativecommons.org/licenses/by/3.0/legalcode)")
+
+-  *n* ohmsche Widerstände nebeneinander geschaltet, so der gesamte Widerstand ist gleich:
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/093e2e4237627bdfe30f04cf41c952c57701cef1)
+
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/5c7395a44f196cd49adf36bedec37139ab1f1592)
+
+### Stromteilerregel
+Stromteiler -> eine Parallelschaltung elektrischer oder magnetischer elektrotechnischer Bauteile, durch die eine elektrische Strom aufgeteilt wird.
+
+
+Stromteilerregel -> beschreibt die Berechnung der Teilströme einer Parallelschaltung von Widerständen bei gegebenem Gesamtstrom.
+
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/89907958e188aaee21364238f2bcc13a2a07822d)
+
+# Ohmsches Gesetz
+!?[Video](https://youtu.be/1kdZUFnTg1A?t=46,783 "Das [Video](https://www.youtube.com/watch?v=1kdZUFnTg1A) 'Ohmsches Gesetz' von *Universaldenker* ist lizenziert unter [ CC BY ](https://creativecommons.org/licenses/by/3.0/legalcode)")
+
+Das Verhältnis der elektrische Spannung an einem elektrischen Leiter zur Stromstärke:
+![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/51fd113cff7a9e8123d22de35890ff497b353dab)
+
+# Einfacher Stromkreis
+!?[Video](https://youtu.be/xzmTvATgA_0 " Das [Video](https://www.youtube.com/watch?v=xzmTvATgA_0) 'Der Stromkreis - Spannung messen' von *Learn DMT* ist lizenziert unter [ CC BY ](https://creativecommons.org/licenses/by/3.0/legalcode) ")
+
+# Lernzielkontrolle:
+## Aufgabe 1:
+Kreuzen Sie bitte die zutreffende Antworten an:
+
+- [[Spannungsquelle] (Beide) [Stromquelle]]
+- [     [ ]            [X]        [ ]     ]  ist stets konstant.
+- [     [ ]            [ ]        [X]     ]  hat unendlichgroßem Innenwiderstand
+- [     [X]            [ ]        [ ]     ]  Innenwiderstand=0
+
+## Aufgabe 2:
+Eine ideale Stromquelle darf **nicht** ...
+
+- [( )]... konstante Strom abgeben.
+- [(X)]...im Leerlauf betrieben werden
+- [[?]] Seite 5 des Kurses
+
+## Aufgabe 3:
+Eine reale Stromquelle darf **nicht** ...
+
+- [( )]... konstante Strom abgeben.
+- [( )]...im Leerlauf betrieben werden.
+- [( )]...im  Kurzschluss betrieben werden.
+- [(X)]...sie darf in jedem Betriebszustand betrieben werden.
+- [[?]] Seite 5 des Kurses
+
+## Aufgabe 4:
+Wenn ein Verbraucher mit der Leerlaufspannung 10V, mit einem Strom von 250 mA belastet wird, gibt die Spannung 8 V ab.
+Wie groß ist U0?
+
+[[10V]]
+
+- [[?]]Vergessen Sie nicht die Einheit!
+- [[?]]Seite 4 des Kurses.
+
+## Aufgabe 5:
+wir viel Ohm ist der Innenwiderstand in Aufgabe 4:
+
+[[0.8]]
+- [[?]] Innenwiderstand= (U0 - U)/I
+
+## Aufgabe 6:
+Ein Generator nimmt 10 kW mechanische Leistung auf und gibt 7 kW elektrische Leistung ab.
+Wie groß ist Wirkungsgrad des Generators?
+
+- [( )] 0.6
+- [( )] 1.4
+- [( )] 1.5
+- [(X)] 0.7
+- [[?]] Seite 6 des Kurses.
+
+## Aufgabe 7:
+Welche Einheit hat Widerstand?
+
+- [( )] Volt
+- [( )] Watt
+- [( )] Ohm
+- [[?]] Seite 8 des Kurses.
+
+## Aufgabe 8:
+Wie groß sollte Widerstand sein wenn U=5 V und I= 2 V sind? (laut Ohmsches Gesetz)
+
+- [(X)] 2.5 Ω
+- [( )] 10 Ω
+- [( )] 0.4 Ω
+- [[?]] Seite 16 des Kurses.
+
+## Aufgabe 9:
+ Ein Verbraucher hat bei einer Temperatur von 25°C einen Widerstand von 20 Ω. Der Verbraucher wird auf 65°C erwärmt.
+ Wie groß ist der Widerstand bei diesem Temperatur? (Der Temperaturkoeffizient= 2,67* 10^-3   1/K)
+
+- [( )] 15 Ω
+- [( )] 18 Ω
+- [(X)] 22 Ω
+- [( )] 23 Ω
+- [[?]] Seite 9 des Kurses.
+
+## Aufgabe 10:
+Wie groß ist der Gesamtwiderstand?
+
+![Bild](https://upload.wikimedia.org/wikipedia/commons/c/c5/3Reihenschaltung.jpg?20220419132300 " Das [Bild](https://commons.wikimedia.org/wiki/File:3Reihenschaltung.jpg#/media/File:3Reihenschaltung.jpg) ist lizenziert unter [CC 0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)")
+
+- [( )] 2.15 Ω
+- [( )] 25 Ω
+- [( )] 10 Ω
+- [[?]] Seite 12 des Kurses.
+
+## Aufgabe 11:
+Wie viel Ohm ist der Gesamtwiderstand?
+
+![Bild](https://upload.wikimedia.org/wikipedia/commons/c/cc/Schaltung.jpg " Das [Bild](https://commons.wikimedia.org/wiki/File:Schaltung.jpg#/media/File:Schaltung.jpg) ist lizenziert unter [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) ")
+
+[[10]]
+
+## Aufgabe 12:
+Wie groß ist I2 in Aufgabe 11?
+
+- [( )] 2 Ω
+- [( )] 3 Ω
+- [(X)] 4 Ω
+- [( )] 5 Ω
+- [[?]] Seite 15 des Kurses.
+
+## Aufgabe 13:
+Welche Spannung hat R1 in Aufgabe 11?
+
+- [(X)] 40 V
+- [( )] 50 V
+- [( )] 60 V
+- [[?]] Seite 16 des Kurses.
+
+## Aufgabe 14:
+
+Kreuzen Sie bitte die zutreffende Antworten an!
+In Aufgabe 11:
+
+- [( )] **U**R1 = **U**R2
+- [(X)] **U**R1 = **U**R3 - *U*R2
+- [(X)] I2= **U**R3/ R1+R2
+- [( )]  I= I3-I2
+- [[?]] 2 Antworten sind richtig.
