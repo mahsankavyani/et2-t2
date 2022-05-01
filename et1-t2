@@ -4,12 +4,18 @@
 
 # Inhaltsverzeichnis
 *** Einfacher Stromkreis: ***
+======
 
 >-> Ideale Spannungsquelle/ Ideale Stromquelle
+
 >-> Wirkungsgrad
+
 >-> Widerstand
+
 >-> Ohmsches Gesetz
+
 >-> Einfacher Stromkreis (Beispiel)
+
 >-> Lernzielkontrolle
 
 # Ideale Spannungsquelle/ Ideale Stromquelle
@@ -37,19 +43,19 @@
 - Bei *U0* der gesamte Quellenstrom durch den Innenwiderstand fließt.
           ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0f304bde18a78edd9e65196b8d4a05d1a75810cc)
 - Ri ~ U0
-![Bild](https://upload.wikimedia.org/wikipedia/commons/c/cd/Quelle_I-Ersatz.svg " Das Bild ´´Ersatzschaltbild einer linearen Stromquelle (mit Verbraucher)´´ von *Saure* ist lizenziert unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)")
+![Bild](https://upload.wikimedia.org/wikipedia/commons/c/cd/Quelle_I-Ersatz.svg " Das Bild ''Ersatzschaltbild einer linearen Stromquelle (mit Verbraucher)'' von *Saure* ist lizenziert unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)")
 
 
 # Wirkungsgrad
 
 - Der Wirkungsgrad gibt normalerweise an, der Anteil der zugeführten Energie, der bei einer Umwandlung in die gewünschte Energieform umgewandelt wird. ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/75c86e29b73e29427879daa155f46f762a5739c2)
--Der Wirkungsgrad kann auch entsprechend über die Leistung ermittelt werden. (Sofern keine Verfälschung durch gespeicherte Energie): ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/ea4ec690bfaf540071e1f286904471384c7c5c47 "**P**ab= Nutzleistung , **P**zu = zugeführten Leistung")
+- Der Wirkungsgrad kann auch entsprechend über die Leistung ermittelt werden. (Sofern keine Verfälschung durch gespeicherte Energie): ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/ea4ec690bfaf540071e1f286904471384c7c5c47 "**P**ab= Nutzleistung , **P**zu = zugeführten Leistung")
 
 ##  Wirkungsgrad einer Spannungsquelle[^*]
 - Verhältnis der dem Verbraucher zugeführten Leistung ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a82e05f7c7210509ae5abb0fdc7ee8e5c0e2bf1)zur von der Spannungsquelle erzeugten Leistung ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/e6982d4d73c8e158f65606a196e6e62c2d7d3efa)
-- Bei realen Spannungsquelle: ein Teil der erzeugten Spannung an **R**i verloren geht.
+- Bei realen Spannungsquelle: ein Teil der erzeugten Spannung an **R**i geht verloren.
 - Bei gleicher Stromstärke gilt: ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a6510777adc392e67d36c2b5c7d54eb0a354c9c8)
-- ![Bild](https://upload.wikimedia.org/wikipedia/commons/b/bd/Maximum_Power_Transfer_Graph_de.png " Das [Bild](https://de.wikipedia.org/wiki/Spannungsquelle#/media/Datei:Maximum_Power_Transfer_Graph_de.png) ´´Normierte Ausgangsleistung und Wirkungsgrad einer realen Spannungsquelle in Abhängigkeit vom Widerstandsverhältnis **R**a /**R**i aus Verbraucherwiderstand **R**a (im Text **R**v) zu Innenwiderstand **R**i´´  von *Saure* ist lizenziert unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)")
+- ![Bild](https://upload.wikimedia.org/wikipedia/commons/b/bd/Maximum_Power_Transfer_Graph_de.png " Das [Bild](https://de.wikipedia.org/wiki/Spannungsquelle#/media/Datei:Maximum_Power_Transfer_Graph_de.png) ''Normierte Ausgangsleistung und Wirkungsgrad einer realen Spannungsquelle in Abhängigkeit vom Widerstandsverhältnis **R**a /**R**i aus Verbraucherwiderstand **R**a (im Text **R**v) zu Innenwiderstand **R**i''  von *Saure* ist lizenziert unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)")
 [^*]: Für mehr Infos klicken Sie bitte [hier](https://de.wikipedia.org/wiki/Spannungsquelle)
 
 # Widerstand
@@ -76,15 +82,15 @@
 
 !?[Video](https://youtu.be/Xw7QXJ9sV6s " Das [Video](https://www.youtube.com/watch?v=Xw7QXJ9sV6s) 'GDE1: Temperaturabhaengige Widerstände' von *Gerald Oberschmidt* ist lizenziert unter [CC BY](https://creativecommons.org/licenses/by/3.0/legalcode) ")
 
--spezifischen Widerstand ~ Temperatur
+- spezifischen Widerstand ~ Temperatur
 
-![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0c3a402538a198ae1fc009c0b555baee01cca382)
+   ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0c3a402538a198ae1fc009c0b555baee01cca382)
 
--Der temperaturabhängige Anteil am spezifischen Widerstand ist bei allen Leitern in einem jeweils begrenzten Temperaturbereich näherungsweise linear
+- Der temperaturabhängige Anteil am spezifischen Widerstand ist bei allen Leitern in einem jeweils begrenzten Temperaturbereich näherungsweise linear
 
 
-da : ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a4c8dc1470becb738459e766a766ecb8a2024795)
-ergibt sich: ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/5697fb2a10e315135a218a881f98ca4c368edbcc)
+   da : ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a4c8dc1470becb738459e766a766ecb8a2024795)
+   ergibt sich: ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/5697fb2a10e315135a218a881f98ca4c368edbcc)
 ##  Elektrischer Leitwert
 Der Kehrwert des ohmschen Widerstands, nennt man elektrische Leitwert und wird mit **G** bezeichnet.
 ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/442277c802d8bf447ad8ff2a7a6f75eebc453970)
@@ -95,7 +101,7 @@ Seine SI-Einheit ist Siemens (S)
 ![Bild](https://upload.wikimedia.org/wikipedia/commons/3/30/Kennlinie_nichtlinear.png "Das [Bild](https://de.wikipedia.org/wiki/Differentieller_Widerstand#/media/Datei:Kennlinie_nichtlinear.png) 'Am Arbeitspunkt A entspricht bei den hier gewählten Koordinatenachsen – der Widerstand der Steigung der Ursprungsgeraden durch diesen Punkt, – der differentielle Widerstand der Steigung der Tangente an diesem Punkt.'  von *Saure* ist lizenziert unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)")
 - Der differentieller Widerstand ist die Ableitung der Spannungskennlinie nach dem Stom
 ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/8c36decd75a5ac857f9ad12d3445dc55902180ef)
-- Im Ohm'sche (linearen) Fall gilt **R=r**D (Haase.Garbe.Gerth, 2009, S.15)
+- Im Ohm'sche (linearen) Fall gilt **R=r**D 
 ## Reihenschaltung
 !?[Video](https://youtu.be/llSTGnunOTQ "Das [Video](https://www.youtube.com/watch?v=llSTGnunOTQ) 'Reihenschaltung' von *Wolfgang Bengfort* ist lizenziert unter [CC BY](https://creativecommons.org/licenses/by/3.0/legalcode)")
 
@@ -162,12 +168,11 @@ Eine reale Stromquelle darf **nicht** ...
 
 ## Aufgabe 4:
 Wenn ein Verbraucher mit der Leerlaufspannung 10V, mit einem Strom von 250 mA belastet wird, gibt die Spannung 8 V ab.
-Wie groß ist U0?
+Wie groß ist U0? * (Vergessen Sie nicht die Einheit!) *
 
 [[10V]]
 
-- [[?]]Vergessen Sie nicht die Einheit!
-- [[?]]Seite 4 des Kurses.
+
 
 ## Aufgabe 5:
 wir viel Ohm ist der Innenwiderstand in Aufgabe 4:
