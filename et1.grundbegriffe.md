@@ -234,7 +234,8 @@ $\boxed{ R(\vartheta) = R_0 (1 + \alpha \cdot (\vartheta - \vartheta_0) + \beta 
    ![Bild](https://upload.wikimedia.org/wikipedia/commons/3/30/Kennlinie_nichtlinear.png "Das [Bild](https://de.wikipedia.org/wiki/Differentieller_Widerstand#/media/Datei:Kennlinie_nichtlinear.png) 'Am Arbeitspunkt A entspricht bei den hier gewählten Koordinatenachsen – der Widerstand der Steigung der Ursprungsgeraden durch diesen Punkt, – der differentielle Widerstand der Steigung der Tangente an diesem Punkt.'  von *Saure* ist lizenziert unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)")
    - Der differentieller Widerstand ist die Ableitung der Spannungskennlinie nach dem Stom
 
-   ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/8c36decd75a5ac857f9ad12d3445dc55902180ef)
+$\boxed{r={{dU_R}\over{dI_R}}\approx{{\Delta U_R}\over{\Delta I_R}}}$
+
 
    - Im Ohm'sche (linearen) Fall gilt **R=r**D
 ## Reihenschaltung
