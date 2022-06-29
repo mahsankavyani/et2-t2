@@ -20,11 +20,14 @@
 
 Bei den verzweigten Stromkreise teilt sich der Strom auf und fließt durch verschiedene Widerstände.  Im  Folgenden verwenden wir die Begriffe wie Strom, Spannung, Widerstand, Ohmsches Gesetz etc, die vorher in dem Kurs Grundbegriffe der Elektrotechnik erklärt würden.
 
-Elektrische Stromkreise bestehen normaleweise aus zwei elementaren Strukturelementen:
 
 <iframe src="http://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKADcRjCRtC9PuAFn5Uqg2lEkwELAO4CQw8MRSL+reWBVqQKPPyWQ5u-Tux5BOo5u1bVe9dusnHq85btRjD3Sks-PZx8UP2V7UKMAZxdff1NcS1EQADMAQwAbSLoWaM8Qj20EqRSMrOMuHj4wypFjT15+HwavACcYvCoAwUTkOG9TMG6YwP7+DpjDFjbPcc9mVSoweCnqsD1VwiSlvrb3BT21kV7nGcXtSZtVedX1k9tN1adjPaU9iucD9YOntqbIOP42F4km2RmmhX+1SB3EWy3kTWBTSqdzcwPqyJYQA" width="100%" height="600px" overflow="auto" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
+
 Darstellung der Gemischte Widerstandschaltung von Mahsan Kaviani, lizenziert unter CC BY NC ND (4.0), erstellt mit der [App](http://www.falstad.com) von Paul Falstad.
+
+
+Elektrische Stromkreise bestehen normaleweise aus zwei elementaren Strukturelementen:
 
 Zweige/Kanten: Verbindungen zwischen zwei Knoten
 
@@ -226,6 +229,6 @@ Umwandlung der **Dreieckschaltung in eine Sternschaltung**:
 
 
 <iframe src="https://h5p.org/h5p/embed/1274196" width="1090" height="295" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="test1"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+# Test 
 
-
-<iframe src="/test.html" width="100%" height="759" frameborder="0" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+<iframe src="https://raw.githack.com/mahsankavyani/et2-t2/master/Lernzielkontrolle.html" width="100%" height="759" frameborder="0" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
