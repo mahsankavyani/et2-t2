@@ -150,7 +150,8 @@ Laut der Feldtheorie nach Faraday [^**](englischer Physiker, 1791-1867)  in der 
 - Stromstärke: Mit dem Wort „Strom“ ist oft die Stromstärke ***I*** gemeint. Sie ist definiert als der Größenwert der Menge ***Q***, der sich pro Zeitintervall ***t*** durch eine (Ober-)Fläche bewegt:
 
 
-      ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a69de48a707e0051ad3c42cb9f0464402f1ff618)
+
+ ${{\partial Q} \over {\partial t}}= I$
 
 
 - Im Allgemeinen werden zwei Stromarten unterschieden:
@@ -188,22 +189,21 @@ Laut der Feldtheorie nach Faraday [^**](englischer Physiker, 1791-1867)  in der 
    - Der elektrische Widerstand erzeugt einen *Widerstand* gegen Strom.
    - Die Einheit des Widerstandes ist Ohm (Ω)
 
-      ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/21647e9159dc8a5403d6119cd379ba15a19a66d4)
 
    - Er bestimmt von den Materialeigenschaften:
-      ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a4c8dc1470becb738459e766a766ecb8a2024795)
+
+   $\boxed{R = \rho \cdot {{l}\over{A}} } $
 
 
-
-   ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/1f7d439671d1289b6a816e6af7a304be40608d64)= spezifischen Widerstand
-
-<br>
-
-   ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/829091f745070b9eb97a80244129025440a1cfac)= Länge des Leiters
+ $\rho$ = spezifischen Widerstand
 
 <br>
 
-   ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/7daff47fa58cdfd29dc333def748ff5fa4c923e3)=  konstanter Querschnittsfläche
+  ***l*** = Länge des Leiters
+
+<br>
+
+  ***A*** =  konstanter Querschnittsfläche
 <br>
 
 ## Temperaturabhängigkeit des Widerstandes
@@ -212,13 +212,18 @@ Laut der Feldtheorie nach Faraday [^**](englischer Physiker, 1791-1867)  in der 
 
 - spezifischen Widerstand ~ Temperatur
 
-      ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0c3a402538a198ae1fc009c0b555baee01cca382)
+
+$\boxed{ \rho(T) = \rho (T_0)+\cdot (1 + \alpha \cdot (T -T_0))}$
+
 
 - Der temperaturabhängige Anteil am spezifischen Widerstand ist bei allen Leitern in einem jeweils begrenzten Temperaturbereich näherungsweise linear
 
 
-      da : ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a4c8dc1470becb738459e766a766ecb8a2024795)
-      ergibt sich: ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/5697fb2a10e315135a218a881f98ca4c368edbcc)
+      da : $\boxed{R = \rho \cdot {{l}\over{A}} } $
+
+      ergibt sich:
+
+$\boxed{ R(\vartheta) = R_0 (1 + \alpha \cdot (\vartheta - \vartheta_0) + \beta \cdot (\vartheta - \vartheta_0)^2 + \gamma \cdot (\vartheta - \vartheta_0)^3 + ...}$
 ##  Elektrischer Leitwert
    Der Kehrwert des ohmschen Widerstands nennt man elektrischer Leitwert und wird mit **G** bezeichnet.
    ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/442277c802d8bf447ad8ff2a7a6f75eebc453970)
@@ -371,14 +376,24 @@ Laut der Feldtheorie nach Faraday [^**](englischer Physiker, 1791-1867)  in der 
 
 # Wirkungsgrad
 
-- Der Wirkungsgrad gibt normalerweise an, der Anteil der zugeführten Energie, der bei einer Umwandlung in die gewünschte Energieform umgewandelt wird. ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/75c86e29b73e29427879daa155f46f762a5739c2)
-- Der Wirkungsgrad kann auch entsprechend über die Leistung ermittelt werden. (Sofern keine Verfälschung durch gespeicherte Energie): ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/ea4ec690bfaf540071e1f286904471384c7c5c47 "**P**ab= Nutzleistung , **P**zu = zugeführten Leistung")
+- Der Wirkungsgrad gibt normalerweise an, der Anteil der zugeführten Energie, der bei einer Umwandlung in die gewünschte Energieform umgewandelt wird.
+
+ $\eta = {{E_{ab}}\over{E_{zu}}}$
+
+- Der Wirkungsgrad kann auch entsprechend über die Leistung ermittelt werden. (Sofern keine Verfälschung durch gespeicherte Energie):
+$\eta = {{P_{ab}}\over{P_{zu}}}$
 
 ##  Wirkungsgrad einer Spannungsquelle[^*]
-- Verhältnis der dem Verbraucher zugeführten Leistung ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/0a82e05f7c7210509ae5abb0fdc7ee8e5c0e2bf1)zur von der Spannungsquelle erzeugten Leistung ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/e6982d4d73c8e158f65606a196e6e62c2d7d3efa)
+- Verhältnis der dem Verbraucher zugeführten Leistung $P_{zu}= I\cdot U_{kl}$ zur von der Spannungsquelle erzeugten Leistung $P_{erz} = I\cdot U_0$
+
 - Bei realen Spannungsquellen: ein Teil der erzeugten Spannung an **R**i geht verloren.
-- Bei gleicher Stromstärke gilt: ![Bild](https://wikimedia.org/api/rest_v1/media/math/render/svg/a6510777adc392e67d36c2b5c7d54eb0a354c9c8)
+- Bei gleicher Stromstärke gilt:
+
+$\eta = {{R_v\cdot I^2\over{R_i\cdot I^2 + R_v\cdot I^2}}} ={{R_v\over{R_i + R_v}}}$
+
+
 - ![Bild](https://upload.wikimedia.org/wikipedia/commons/b/bd/Maximum_Power_Transfer_Graph_de.png " Das [Bild](https://de.wikipedia.org/wiki/Spannungsquelle#/media/Datei:Maximum_Power_Transfer_Graph_de.png) ''Normierte Ausgangsleistung und Wirkungsgrad einer realen Spannungsquelle in Abhängigkeit vom Widerstandsverhältnis **R**a /**R**i aus Verbraucherwiderstand **R**a (im Text **R**v) zu Innenwiderstand **R**i''  von *Saure* ist lizenziert unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)")
+
 [^*]: Für mehr Infos klicken Sie bitte [hier](https://de.wikipedia.org/wiki/Spannungsquelle)
 
 # Lernzielkontrolle
