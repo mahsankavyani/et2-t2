@@ -42,8 +42,8 @@ Knoten: Verbindungspunkte mehrerer Zweige
 
 
 # Kirchhoffsche Gleichungen
-!?[Video](https://youtu.be/qkKaNsHdxgc)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qkKaNsHdxgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Der Knotensatz [^*]
 
@@ -52,11 +52,14 @@ Für jeden Knoten ist die Summe der zufließenden Ströme gleich der Summe der a
 
 [^*]: empfehlenswert sind die Themen Parallelschaltung von Widerständen und Stromteiler im  Kurs Grundbegriffe der Elektrotechnik.
 
+
 <figure style="text-align:center">
-  <iframe width=420 height=250  src="https://youtu.be/JmX8qO0krFE " frameborder="0" allowfullscreen></iframe>
-  <figcaption>Das [Video](https://www.youtube.com/watch?v=JmX8qO0krFE) von
-  Wolfgang Bengfort ist lizenziert unter [CC-BY 3.0](https://support.google.com/youtube/answer/2797468)</figcaption>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JmX8qO0krFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>Das [Video](https://www.youtube.com/watch?v=JmX8qO0krFE) von
+Wolfgang Bengfort ist lizenziert unter [CC-BY 3.0](https://support.google.com/youtube/answer/2797468)</figcaption>
 </figure>
+
+
 
 
 
@@ -68,11 +71,12 @@ Alle Teilspannungen eines Umlaufs bzw. einer Masche in einem elektrischen Netzwe
  Zwischen zwei Punkten eines Netzwerks ergibt sich nur eine Potentialdifferenz. Die Potentialdifferenz ist damit insbesondere *unabhängig* davon auf welchem Weg ein Netzwerk zwischen den Punkte
  durchlaufen wird. Dies lässt sich durch die Betrachtung von Maschen beschreiben.
 
- <figure style="text-align:center">
-   <iframe width=420 height=250  src="https://youtu.be/wiLqQ0W7Zcw " frameborder="0" allowfullscreen></iframe>
-   <figcaption>Das [Video](https://www.youtube.com/watch?v=JmX8qO0krFE) von
-   Wolfgang Bengfort ist lizenziert unter [CC-BY 3.0](https://support.google.com/youtube/answer/2797468)</figcaption>
- </figure>
+<figure style="text-align:center">
+<iframe width="420" height="250"  src="https://www.youtube.com/embed/wiLqQ0W7Zcw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>Das [Video](https://www.youtube.com/watch?v=wiLqQ0W7Zcw) von
+Wolfgang Bengfort ist lizenziert unter [CC-BY 3.0](https://support.google.com/youtube/answer/2797468)</figcaption>
+</figure>
+
 
 
 [^*]: empfehlenswert sind die Themen: Reihenschaltung von Widerständen und Spannungsteiler im  Kurs Grundbegriffe.
@@ -90,10 +94,9 @@ Für jeden Knoten und jede *unabhängige* Masche die Knoten- und Maschengleichun
 
 ### Allgemeine Schritte
 
-
 <figure style="text-align:center">
-  <iframe width=420 height=250  src="https://youtu.be/d0zVtOhJ-8A " frameborder="0" allowfullscreen></iframe>
-  <figcaption>Das [Video](https://www.youtube.com/watch?v=d0zVtOhJ-8A) von
+<iframe width="420" height="250"  src="https://youtube.com/embed/d0zVtOhJ-8A " frameborder="0" allowfullscreen></iframe>
+<figcaption>Das [Video](https://www.youtube.com/watch?v=d0zVtOhJ-8A) von
 Mathias Magdowski ist lizenziert unter [CC-BY 3.0](https://support.google.com/youtube/answer/2797468)</figcaption>
 </figure>
 
@@ -116,9 +119,10 @@ Im Maschenstromverfahren werden nur für alle Maschen m jeweils die Gleichung: $
 
 ## Allgemeine Schritte
 
+
 <figure style="text-align:center">
-  <iframe width=420 height=250  src="https://youtu.be/HT0XNq8cjig " frameborder="0" allowfullscreen></iframe>
-  <figcaption>Das [Video](https://www.youtube.com/watch?v=HT0XNq8cjig) von
+<iframe width="420" height="250"  src="https://youtube.com/embed/HT0XNq8cjig " frameborder="0" allowfullscreen></iframe>
+<figcaption>Das [Video](https://www.youtube.com/watch?v=HT0XNq8cjig) von
 Mathias Magdowski ist lizenziert unter [CC-BY 3.0](https://support.google.com/youtube/answer/2797468)</figcaption>
 </figure>
 
@@ -138,7 +142,7 @@ Mathias Magdowski ist lizenziert unter [CC-BY 3.0](https://support.google.com/yo
 # Knotenpotentialverfahren
 
 <figure style="text-align:center">
-  <iframe width=420 height=250  src="https://youtu.be/tpeu84Zq63g " frameborder="0" allowfullscreen></iframe>
+  <iframe width=420 height=250  src="https://youtube.com/embed/tpeu84Zq63g " frameborder="0" allowfullscreen></iframe>
   <figcaption>Das [Video](https://www.youtube.com/watch?v=tpeu84Zq63g) von Gerald Oberschmidt ist lizenziert unter [CC-BY 3.0](https://support.google.com/youtube/answer/2797468)</figcaption>
 </figure>
 
@@ -222,13 +226,35 @@ Umwandlung der **Dreieckschaltung in eine Sternschaltung**:
 
 
 <figure style="text-align:center">
-  <iframe width=420 height=250  src="https://youtu.be/xvucxI3yOyw " frameborder="0" allowfullscreen></iframe>
+  <iframe width=420 height=250  src="https://youtube.com/embed/xvucxI3yOyw " frameborder="0" allowfullscreen></iframe>
   <figcaption>
   Das [Video](https://www.youtube.com/watch?v=xvucxI3yOyw) von Gerald Oberschmidt ist lizenziert unter [CC-BY 3.0](https://support.google.com/youtube/answer/2797468)</figcaption>
 </figure>
 
 
-<iframe src="https://h5p.org/h5p/embed/1274196" width="1090" height="295" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="test1"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
-# Test 
+# Test
+<iframe src="" width="100%" height="759" frameborder="0" overflow="auto" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
-<iframe src="https://raw.githack.com/mahsankavyani/et2-t2/master/Lernzielkontrolle.html" width="100%" height="759" frameborder="0" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+# Lernzielkontrolle
+
+## Teil 1
+![Bild](https://upload.wikimedia.org/wikipedia/commons/3/3a/Maschenstrom.jpg "Das [Bild](https://commons.wikimedia.org/wiki/File:Maschenstrom.jpg#/media/File:Maschenstrom.jpg) ist lizenziert unter [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)")
+
+
+
+<iframe src="https://raw.githack.com/mahsankavyani/et2-t2/master/Maschsenstromverfahren.html" width="100%" height="759" frameborder="0" overflow="auto" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+## Teil 2
+ ![Bild](https://upload.wikimedia.org/wikipedia/commons/2/2c/Zweigstrom.jpg "Das [Bild](https://upload.wikimedia.org/wikipedia/commons/2/2c/Zweigstrom.jpg) ist lizenziert unter [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)")
+
+<iframe src="https://raw.githack.com/mahsankavyani/et2-t2/master/Zweigstromverfahren.html" width="100%" height="759" frameborder="0" overflow="auto" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+## Teil 3
+
+![Bild](https://upload.wikimedia.org/wikipedia/commons/7/75/Knoten.png "Das [Bild](https://commons.wikimedia.org/wiki/File:Knoten.png#/media/File:Knoten.png) ist lizenziert unter [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)")
+
+
+
+<iframe src="https://raw.githack.com/mahsankavyani/et2-t2/master/Knotenpotentialverfahren.html" width="100%" height="759" frameborder="0" overflow="auto" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
