@@ -246,10 +246,26 @@ Umwandlung der **Dreieckschaltung in eine Sternschaltung**:
 <iframe src="https://raw.githack.com/mahsankavyani/et2-t2/master/Maschsenstromverfahren.html" width="100%" height="759" frameborder="0" overflow="auto" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-## Teil 2
+## Teil 2 [^1]
  ![Bild](https://upload.wikimedia.org/wikipedia/commons/2/2c/Zweigstrom.jpg "Das [Bild](https://upload.wikimedia.org/wikipedia/commons/2/2c/Zweigstrom.jpg) ist lizenziert unter [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)")
 
 <iframe src="https://raw.githack.com/mahsankavyani/et2-t2/master/Zweigstromverfahren.html" width="100%" height="759" frameborder="0" overflow="auto" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+<iframe src="https://raw.githack.com/mahsankavyani/et2-t2/master/Zweigstrom-schaltung.html" width="100%" height="759" frameborder="0" overflow="auto" scrolling="no"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+What is $37 + 15$?
+
+[[52]]
+[[?]] [Link](https://tinyurl.com/23qahfh6)
+[[?]] <iframe src="http://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKAHdwwURCAWT7mF79I7AeAyFxmQWObcZIFCn6LRHeT1UqtUMcv58lOoSP07FB8MVkcrRlVSPqQ2bFKNupeKi6-j-Uz0OQMlXdyV8YPCpRxilDG4-CMsLRL0AJ3EgzTAw2hYswOF4vKkCopSo-ziqMFEAN3ifUq4odt4nX3aYBBYmqyDBmx6QTtdu32g+u3HPCKNWIA" width="100%" height="600px" overflow="auto" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+[[?]] it should be an even number
+
+[^1]: [Schaltung]([^1])
+
 
 ## Teil 3
 
